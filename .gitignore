@@ -1,0 +1,23 @@
+# Configurare locală (conține calea SDK-ului și cheia API - nu se pune în git)
+local.properties
+
+# Build și cache Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Chei de semnare și fișiere generate
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Sistem de operare
+.DS_Store
